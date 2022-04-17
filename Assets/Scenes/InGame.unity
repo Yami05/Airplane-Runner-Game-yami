@@ -327,12 +327,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selections13:
-  - {fileID: 70564854}
+  - {fileID: 0}
   - {fileID: 7117034815808417400, guid: 986c3d0d840c193499421d18558ecada, type: 3}
   selections17:
   - {fileID: 7200232648590327771}
   - {fileID: 1897184382633502, guid: bc59902fe8272d54da1ae082ff755757, type: 3}
-  timeToSpawn: 45
+  timeToSpawn: 50
 --- !u!1 &70564854
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 2077489901}
-  timeToSpawn: 45
+  timeToSpawn: 50
 --- !u!1 &312164080
 GameObject:
   m_ObjectHideFlags: 0
@@ -3212,7 +3212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 1426219681}
-  timeToSpawn: 85
+  timeToSpawn: 80
 --- !u!1 &1052736740
 GameObject:
   m_ObjectHideFlags: 0
@@ -3372,7 +3372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 650012365}
-  timeToSpawn: 5
+  timeToSpawn: 10
 --- !u!4 &1195092387
 Transform:
   m_ObjectHideFlags: 0
@@ -3959,12 +3959,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selections13:
-  - {fileID: 70564854}
   - {fileID: 0}
+  - {fileID: 7117034815808417400, guid: 986c3d0d840c193499421d18558ecada, type: 3}
   selections17:
   - {fileID: 7200232648590327771}
   - {fileID: 1897184382633502, guid: bc59902fe8272d54da1ae082ff755757, type: 3}
-  timeToSpawn: 5
+  timeToSpawn: 10
 --- !u!1 &1417907142
 GameObject:
   m_ObjectHideFlags: 0
@@ -5032,12 +5032,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selections13:
-  - {fileID: 70564854}
+  - {fileID: 0}
   - {fileID: 7117034815808417400, guid: 986c3d0d840c193499421d18558ecada, type: 3}
   selections17:
   - {fileID: 7200232648590327771}
   - {fileID: 1897184382633502, guid: bc59902fe8272d54da1ae082ff755757, type: 3}
-  timeToSpawn: 20
+  timeToSpawn: 30
 --- !u!1 &1663214095
 GameObject:
   m_ObjectHideFlags: 0
@@ -5232,7 +5232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentFuel: 100
-  multiplier: 1
+  multiplier: 0.4
   player: {fileID: 1766541445}
   fuelui: {fileID: 625774734}
 --- !u!114 &1766541449
@@ -6317,12 +6317,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selections13:
-  - {fileID: 70564854}
+  - {fileID: 0}
   - {fileID: 7117034815808417400, guid: 986c3d0d840c193499421d18558ecada, type: 3}
   selections17:
   - {fileID: 7200232648590327771}
   - {fileID: 1897184382633502, guid: bc59902fe8272d54da1ae082ff755757, type: 3}
-  timeToSpawn: 85
+  timeToSpawn: 80
 --- !u!1001 &1981263398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6551,7 +6551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 550060270}
-  timeToSpawn: 20
+  timeToSpawn: 30
 --- !u!1 &2077489901 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6163996089266643929, guid: 99476c7827f5e794b845ff60b217ba8f, type: 3}
