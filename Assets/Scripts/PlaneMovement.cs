@@ -12,7 +12,7 @@ public class PlaneMovement : MonoBehaviour
     public float zerofuel = 0f;
     public float forwardSpeed;
     private int desiredLane = 1; 
-    public float laneDistance = 4; // the distance between lanes 
+    public float laneDistance = 4;  
     public float jumpForce;
     public float a ;
     public float b;
@@ -50,29 +50,40 @@ public class PlaneMovement : MonoBehaviour
         {
 
             a = 5;
+            b = 5;
         }if (other.tag =="Choice1")
         {
 
             a = 5;
+            b = 5;
         }if (other.tag =="Choice2")
         {
 
             a = 8;
-        }if (other.tag =="Choice3")
+            b = 8;
+        }
+        if (other.tag =="Choice3")
         {
 
             a = 10;
+            b = 10;
         }
 
         if (other.tag == "Choice4")
         {
 
             a = 10;
+            b = 10;
         }
         if (other.tag == "+2")
         {
             a = b;
         }
+        else
+        {
+            
+        }
+        
         
         if (other.tag =="Coin")
         {
@@ -89,7 +100,7 @@ public class PlaneMovement : MonoBehaviour
    IEnumerator BackToNormalSpeed()
     {
         forwardSpeed = boostspeed;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(9f);
         forwardSpeed = 10;
     }
 
@@ -173,7 +184,12 @@ public class PlaneMovement : MonoBehaviour
     {
         direction.y = -jumpForce*Time.deltaTime;
     }
-   
+    private void OnCollisionEnter(Collision collision)
+    {
+        FindObjectOfType<PlayerManager>().endgame();
+
+    }
+
 }
     
 

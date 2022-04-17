@@ -25,7 +25,7 @@ public class Magnet : MonoBehaviour
     IEnumerator ActivateCoin()
     {
         coinDetectorObj.SetActive(true);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(10f);
         coinDetectorObj.SetActive(false);
     }
 }

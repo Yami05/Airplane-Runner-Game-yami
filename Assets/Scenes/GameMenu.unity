@@ -629,6 +629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Airbus
       objectReference: {fileID: 0}
+    - target: {fileID: 9004575985674577098, guid: b917497efab377e4b855a4594e112f24, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b917497efab377e4b855a4594e112f24, type: 3}
 --- !u!4 &176179217 stripped
@@ -651,6 +655,10 @@ PrefabInstance:
     - target: {fileID: 4689658203955062439, guid: b57b83d71d976624c85cac796227a046, type: 3}
       propertyPath: m_Name
       value: Stearman_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689658203955062439, guid: b57b83d71d976624c85cac796227a046, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5358953594601913373, guid: b57b83d71d976624c85cac796227a046, type: 3}
       propertyPath: m_RootOrder
@@ -1032,7 +1040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &356298977
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2108,7 +2116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &771282750
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3495,6 +3503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spitfire
       objectReference: {fileID: 0}
+    - target: {fileID: 3186867228944763426, guid: 8a8ff69ab7060f74480e949db196d229, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a8ff69ab7060f74480e949db196d229, type: 3}
 --- !u!4 &1321818150 stripped
@@ -3876,9 +3888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planes:
   - {fileID: 452657204}
-  - {fileID: 1457937569}
-  - {fileID: 1540733831}
-  - {fileID: 283832028}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentPlaneIndex: 0
 --- !u!1001 &1691434207
 PrefabInstance:
