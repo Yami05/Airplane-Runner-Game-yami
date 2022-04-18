@@ -19,6 +19,8 @@ TagManager:
   - SpawnForLevels
   - CoinDetector
   - Playerbubble
+  - Birds
+  - Camera
   layers:
   - Default
   - TransparentFX
